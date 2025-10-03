@@ -50,6 +50,6 @@
 #define BRIGHT_CYAN_BG 106
 #define BRIGHT_WHITE_BG 107
 
-void printfc(int attribute ,int backgroundColour, int textColour, char colourText[]){
-  printf("\033[%d;%d;%dm%s\033[0m",attribute , backgroundColour, textColour , colourText);
+void printfc(int attribute ,int backgroundColour, int textColour, char text[]){
+  printf("\033[%d;%d;%dm%s\033[0m",attribute , backgroundColour, textColour, text);
 }

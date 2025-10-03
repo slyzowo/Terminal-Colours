@@ -15,3 +15,10 @@ Printfc(Attribute, Background, Foreground, "Text to Display");
 An example of what the result looks like
 
 ![Example Image](https://raw.githubusercontent.com/slyzowo/Coloured-Text/main/images/demostration-pic.png)
+
+
+## Installation
+Download the .zip folder in the releases section. and extract them and place the header file (the `.h` file) and the object file (the `.a` file) in these locations.
+
+
+the header file goes in `C:\msys64\mingw64\include`, while the object file goes in `C:\msys64\mingw64\lib`.

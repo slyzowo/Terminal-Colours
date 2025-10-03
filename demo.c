@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "src/coloured_text.h"
+#include <terminal_colours.h>
+
 
 int main(){
 

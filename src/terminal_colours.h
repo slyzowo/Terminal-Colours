@@ -1,7 +1,7 @@
 #ifndef COLOURED_TEXT_H
 #define COLOURED_TEXT_H
 
-#include "coloured_text.c"
+#include "terminal_colours.c"
 
 // Global Modifiers
 #define NONE 0

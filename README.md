@@ -14,4 +14,4 @@ Printfc(Background, Foreground, "Text to Display");
 ```
 
 An example of what the result looks like
-![Example Image]([https://github.com/slyzowo/Coloured-Text/main/images/demo-pic.png](https://github.com/slyzowo/Coloured-Text/blob/main/images/demo-pic.png))
+![Example Image]([https://github.com/slyzowo/Coloured-Text/main/images/demo-pic.png](https://github.com/slyzowo/Coloured-Text/main/images/demo-pic.png))

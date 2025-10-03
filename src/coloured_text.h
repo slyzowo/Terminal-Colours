@@ -6,7 +6,12 @@
 // Global Modifiers
 #define NONE 0
 #define BOLD 1
+#define FAINT 2
+#define ITALIC 3
 #define UNDERLINE 4
+#define SLOW_BLINK 5
+#define FAST_BLINK 6
+#define STRIKE 9
 
 // Text Modifiers
 #define BLACK_FG 30
@@ -48,6 +53,6 @@
 #define BRIGHT_CYAN_BG 106
 #define BRIGHT_WHITE_BG 107
 
-void printfc(int backgroundColour, int textColour , char text[]);
+void printfc(int attribute, int backgroundColour, int textColour , char text[]);
 
 #endif /* COLOURED_TEXT_H */

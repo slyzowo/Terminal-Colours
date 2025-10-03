@@ -3,14 +3,13 @@ A Windows 11 library to make coloured text in the terminal
 
 There are three arguments in the function `BackgroundColour` `ForegroundColour` `Text`.
 
-`Text` is the Text you want to display.
+1. `Text` is the Text you want to display.
+2. `BackgroundColour` is the background colour you want to display behind the `Text`.
+3. `ForegroundColour` is the foreground colour you want to display on the `Text`.
+4. `Attribute` is the Modifier you want to display on the `Text`.
 
-`BackgroundColour` is the background colour you want to display behind the `Text`.
-
-`ForegroundColour` is the foreground colour you want to display on the `Text`.
-
-```C
-Printfc(Background, Foreground, "Text to Display");
+```c
+Printfc(Attribute, Background, Foreground, "Text to Display");
 ```
 
 An example of what the result looks like

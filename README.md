@@ -9,7 +9,7 @@ There are three arguments in the function `BackgroundColour` `ForegroundColour` 
 4. `Attribute` is the Modifier you want to display on the `Text`.
 
 ```c
-Printfc(Attribute, Background, Foreground, "Text to Display");
+coloured_printf(Attribute, Background, Foreground, "Text to Display");
 ```
 
 An example of what the result looks like

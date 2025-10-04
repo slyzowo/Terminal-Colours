@@ -53,6 +53,6 @@
 #define BRIGHT_CYAN_BG 106
 #define BRIGHT_WHITE_BG 107
 
-void printfc(int attribute, int backgroundColour, int textColour, char text[]);
+void coloured_printf(int attribute, int backgroundColour, int textColour, char text[]);
 
 #endif /* COLOURED_TEXT_H */

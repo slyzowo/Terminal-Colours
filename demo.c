@@ -42,7 +42,6 @@ int main(){
   coloured_printf(NONE, BRIGHT_WHITE_BG, DEFAULT_FG, "This Background is Coloured BRIGHT_WHITE\n");
   coloured_printf(NONE, BLACK_BG, DEFAULT_FG, "This Background is Coloured BLACK\n");
   coloured_printf(NONE, BRIGHT_BLACK_BG, DEFAULT_FG, "This Background is Coloured BRIGHT_BLACK\n");
-  getchar();
 
 return 0;
 }

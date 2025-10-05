@@ -1,6 +1,9 @@
 # Terminal Colours
 A Windows 11 library to make coloured text in the terminal
 
+> [!WARNING]
+> I don't entirely know how to make libraries, so these types of projects will be semi-incomplete
+
 There are three arguments in the function `BackgroundColour` `ForegroundColour` `Text`.
 
 1. `Text` is the Text you want to display.

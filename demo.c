@@ -9,8 +9,6 @@ int main(){
   coloured_printf(FAINT, DEFAULT_BG, DEFAULT_FG, "This Text has been FAINTED\n");
   coloured_printf(ITALIC, DEFAULT_BG, DEFAULT_FG, "This Text has been ITALIC\n");
   coloured_printf(UNDERLINE, DEFAULT_BG, DEFAULT_FG, "This Text has been UNDERLINED\n");
-  coloured_printf(SLOW_BLINK, DEFAULT_BG, DEFAULT_FG, "This Text has been SLOW_BLINKED\n");
-  coloured_printf(FAST_BLINK, DEFAULT_BG, DEFAULT_FG, "This Text has been FAST_BLINKED\n");
   coloured_printf(STRIKE, DEFAULT_BG, DEFAULT_FG, "This Text has been STRIKED\n");
 
   coloured_printf(NONE, DEFAULT_BG, RED_FG, "This Foreground is Coloured RED\n");

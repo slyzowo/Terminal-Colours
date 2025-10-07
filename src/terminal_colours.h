@@ -9,8 +9,6 @@
 #define FAINT 2
 #define ITALIC 3
 #define UNDERLINE 4
-#define SLOW_BLINK 5
-#define FAST_BLINK 6
 #define STRIKE 9
 
 // Text Modifiers

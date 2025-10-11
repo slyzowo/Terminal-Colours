@@ -1,9 +1,6 @@
 # Terminal Colours
 A Windows 11 library to make coloured text in the terminal
 
-> [!WARNING]
-> I don't entirely know how to make libraries, so these types of projects will be semi-incomplete
-
 There are three arguments in the function `BackgroundColour` `ForegroundColour` `Text`.
 
 1. `Text` is the Text you want to display.
@@ -21,5 +18,8 @@ An example of what the result looks like
 
 
 ## Installation
-Download the .zip folder in the releases section. and extract them and place the header file (the `.h` file) and the object file (the `.a` file) in these locations.
-the header file goes in `C:\msys64\mingw64\include`, while the object file goes in `C:\msys64\mingw64\lib`.
+Download the .zip folder. and extract them and place the header file (the `.h` file) and the object file (the `.a` file) in these locations.
+
+the header file goes in `C:\msys64\mingw64\include`
+
+while the object file goes in `C:\msys64\mingw64\lib`.

@@ -51,4 +51,4 @@
 
 void coloured_print(int attribute, int backgroundColour, int textColour, char text[]);
 
-#endif /* COLOURED_TEXT_H */
+#endif /* TERMINAL_COLOURS_H */

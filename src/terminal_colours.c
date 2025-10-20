@@ -48,6 +48,7 @@
 #define BRIGHT_CYAN_BG 106
 #define BRIGHT_WHITE_BG 107
 
-void coloured_printf(int attribute ,int backgroundColour, int textColour, char text[]){
-  printf("\033[%d;%d;%dm%s\033[0m",attribute , backgroundColour, textColour, text);
+
+void coloured_print(int attribute ,int backgroundColour, int textColour, char text[]){
+  printf("\033[%d;%d;%dm%s\033[0m", attribute, backgroundColour, textColour, text);
 }

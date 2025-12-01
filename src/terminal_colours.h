@@ -1,10 +1,6 @@
 #ifndef TERMINAL_COLOURS_H
 #define TERMINAL_COLOURS_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 // Global Modifiers
 #define NONE 0
 #define BOLD 1
@@ -54,9 +50,5 @@ extern "C" {
 #define BRIGHT_WHITE_BG 107
 
 void coloured_print(int attribute, int backgroundColour, int textColour, char text[]);
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif /* TERMINAL_COLOURS_H */

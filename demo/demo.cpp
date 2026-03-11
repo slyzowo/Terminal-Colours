@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "src/terminal_colours.c"
+#include <iostream>
+#include "terminal_colours.h"
 
 int main(){
 

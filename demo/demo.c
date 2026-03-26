@@ -1,11 +1,14 @@
 #include <stdio.h>
-#include "terminal_colours.h"
+#include "terminal_colors.h"
 
 int main(){
 
-  coloured_print(255, 0, 0, "Red\n");
-  coloured_print(0, 255, 0, "Green\n");
-  coloured_print(0, 0, 255, "Blue\n");
+  int name = 4;
+
+  colored_printf(255, 0, 0, "%d\n", name);
+  colored_print(255, 0, 0, "Red\n");
+  colored_print(0, 255, 0, "Green\n");
+  colored_print(0, 0, 255, "Blue\n");
 
   error_print("[Error] print\n");
   warning_print("[Warning] print\n");

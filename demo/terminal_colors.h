@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef TERMINAL_COLOURS_H
-#define TERMINAL_COLOURS_H
+#ifndef TERMINAL_COLORS_H
+#define TERMINAL_COLORS_H
 
 #ifdef __cplusplus
   extern "C" {

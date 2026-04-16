@@ -15,15 +15,21 @@ the header file goes in `C:\msys64\mingw64\include`
 while the object file goes in `C:\msys64\mingw64\lib`.
 
 # How to use
-There are three arguments in the function `BackgroundColour` `ForegroundColour` `Text`.
+There are four arguments in the function `Red`, `Green` `Blue`, `Text`.
 
-1. `Text` is the Text you want to display.
-2. `BackgroundColour` is the background colour you want to display behind the `Text`.
-3. `ForegroundColour` is the foreground colour you want to display on the `Text`.
-4. `Attribute` is the Modifier you want to display on the `Text`.
+1. `Red` is the amount of red in the foreground colour you want to display on the `Text`.
+2. `Green` is the amount of green in the foreground colour you want to display on the `Text`.
+3. `Blue` is the amount of blue in the foreground colour you want to display on the `Text`.
+4. `Text` is the Text you want to display.
 
 ```c
-coloured_print(Attribute, Background, Foreground, "Text to Display");
+cprint(Attribute, Background, Foreground, "Text to Display");
+```
+
+
+
+```c
+cprintf(Attribute, Background, Foreground, "Text to Display");
 ```
 
 # Roadmap

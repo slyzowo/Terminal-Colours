@@ -7,6 +7,13 @@
 
 A Windows 11 library to make coloured text in the terminal
 
+### Table of Contents
+- [Installation](#installation)
+- [How to use](#how-to-use)
+- [AI Disclosure](#ai-disclosure)
+- [License](#license)
+- [Authors](#authors)
+
 ## Installation
 Download the .zip folder. and extract them and place the header file (the `.h` file) and the object file (the `.a` file) in these locations.
 
@@ -26,17 +33,16 @@ There are four arguments in the function `Red`, `Green` `Blue`, `Text`.
 cprint(Attribute, Background, Foreground, "Text to Display");
 ```
 
-
-
 ```c
 cprintf(Attribute, Background, Foreground, "Text to Display");
 ```
 
-# Roadmap
-I may add compatiblity with other languages. I'm unsure if I will though.
-
-# Authors
-slyzowo
+# AI Disclosure
+Generative A.I. was used in this project.
+Generative A.I. was used to assist to write the `colored_printf` function, as I did not know how varadic funtions work in C.
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+# Authors
+slyzowo
